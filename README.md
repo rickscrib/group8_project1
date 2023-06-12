@@ -1,2 +1,2 @@
-# group8_project1
-OMDB Analysis and Visualization
+# project1-team8
+project1-team8
