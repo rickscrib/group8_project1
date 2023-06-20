@@ -23,3 +23,7 @@ Cleaned data is written as <Resources/oscar_clean.csv>.
 ### Analysis
 
 Please check individual README.
+
+### Git Merge
+
+There are some issue with git merge, we are unable to complete Main branch by merge. Main is pushed from organized local file.
