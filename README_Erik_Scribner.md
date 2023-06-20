@@ -1,0 +1,9 @@
+# group8_project1
+OMDB Analysis and Visualization
+
+On branch 'erik' is work and outputs for my analysis of runtimes of oscar-winning movies. The file "project1_runtimes.ipynb" is my final analysis. "runtime_clean.csv" was the final data cleaned and used for my analysis. "runtimes_output" also contains the output .png files for my visualizations. 
+
+
+	For my contribution to the project, I asked whether there was a correlation between the length of movies and how they perform at the Oscars. Specifically, I was curious to know if a certain runtime is more likely to mean that a movie will win an Oscar. My null hypothesis therefore was simply that the two are unrelated, and my alternate hypothesis was that there is an ideal length of movie one could make for the sake of trying to win an award.
+	After the data was merged and cleaned, the movies’ runtime was plotted against the year, with the trivariate scatter plot also displaying information on the number of Oscars won by each movie. It was determined that the data was grouped in such a way that more effective analysis could be done by splitting the data into two groups. This was achieved by using the quartiles from a box plot to determine appropriate cutoff points. Once the data was split, separate linear regression analyses were performed on each set, before recombining the data into one plot for cleaner presentation.
+	The weak correlation indicated by low r and p values, and a high standard error and lack of normal distribution all led to the conclusion that confirms the null hypothesis. One factor to consider which may have contributed to the grouping observed in the data, and could actually be a flaw in the data, is that there are simply fewer movies being made which are of that medium length. If that were the case, there would be fewer potential Oscar winners, meaning fewer movies in that band of the data, as is the case. 
