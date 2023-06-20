@@ -1,4 +1,4 @@
-### Data Gathering
+### Data Gathering <project1_DATA_API.ipynb>
 
 #### Oscar Winning Movie List
 
@@ -12,7 +12,7 @@ Using omdb API we are able to request info by movie name. Due to the limitation 
 
 Some movie names have punctuation or minor differences, omdb API only accepts exact matches. This is possible to avoid by searching movie names in other channels such as wikipedia API to correct searching titles, but we didn’t get a chance to work on the polish. Most movies are successfully requested.
 
-### Data Cleaning <project1_clean.ipynb>
+### Data Cleaning <project1_DATA_clean.ipynb>
 
 API ombd is very organized, all data are fulfilled as string including “NA”. For data cleaning part, the strings are converted to numeric data for values, such as Year, rating, boxoffice.
 
